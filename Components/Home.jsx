@@ -90,50 +90,21 @@ const styles = StyleSheet.create({
   wrapper: {
     height: "100%",
     width: "100%",
-    overflow: "scroll",
-  },
-
-  container: {
-    width: "100%",
-    height: "15%",
-    padding: 5,
-    flexDirection: "row",
-    flexWrap: "wrap",
-  },
-
-  titlesContainer: {
-    width: "42%",
-  },
-
-  title: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-
-  dummyTitlesContainer: {
-    width: "10%",
-  },
-
-  titleTxt: {
-    fontWeight: "500",
-    color: "rgb(112, 112, 112)",
   },
 
   listContainer: {
-    width: "90%",
-    height: "85%",
-    maxHeight: 450,
-    alignItems: "center",
-    borderRadius: 25,
-    borderWidth: 1,
-    backgroundColor: "#fff",
+    width: "100%",
+    height: "100%",
+    backgroundColor: "#a8dadc",
+    borderBottomWidth: 2,
+    borderBottomColor: "#457b9d",
+    marginBottom: 5,
   },
 
   btnContainer: {
     position: "absolute",
-    bottom: "10%",
-    right: "5%",
+    bottom: "3%",
+    right: "2%",
   },
 
   btn: {
@@ -143,7 +114,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 10,
     borderRadius: 100,
-    backgroundColor: "#52C1E5",
+    backgroundColor: "#fcbf49",
   },
 
   btnText: {

@@ -27,7 +27,6 @@ const CreateTask = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.formLabel}> Enter the tasks details below:</Text>
-
       <View>
         <TextInput
           style={styles.input}
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
 
   formLabel: {
     fontSize: 20,
-    color: "#2f2e2f",
+    color: "#457b9d",
   },
 
   input: {
@@ -81,8 +80,8 @@ const styles = StyleSheet.create({
   },
 
   btn: {
-    width: 50,
-    height: 50,
+    width: 60,
+    height: 60,
     justifyContent: "center",
     alignItems: "center",
     padding: 10,
@@ -91,8 +90,8 @@ const styles = StyleSheet.create({
   },
 
   btnText: {
-    color: "black",
-    fontSize: 15,
+    color: "#457b9d",
+    fontSize: 20,
   },
 });
 
